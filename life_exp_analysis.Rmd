@@ -16,3 +16,8 @@ Here we will reproduce the famous plot from Oeppen and Vaupel (2002)
 ## Analysis
 
 Here we begin the analysis. 
+
+```{r}
+
+```
+
