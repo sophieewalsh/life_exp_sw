@@ -7,6 +7,7 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
 ## Abstract
@@ -18,6 +19,15 @@ Here we will reproduce the famous plot from Oeppen and Vaupel (2002)
 Here we begin the analysis. 
 
 ```{r}
+library(gapminder)
+data(gapminder_unfiltered)
 
+
+gapminder_unfiltered %>% 
+  group_by(year)%>% 
+  filter(lifeExp == max(lifeExp)) %>% 
+  arrange(year)
+
+  
 ```
 
