@@ -1,0 +1,14 @@
+---
+title: "Life Expectancy Analysis"
+author: "Sophie Walsh"
+date: "1/16/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Abstract
+
+Here we will reproduce the famous plot from Oeppen and Vaupel (2002)
